@@ -3,6 +3,8 @@
   <component name="ContentModelStore">
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/extResources" t="IncludeRecursive" />
     <e p="$USER_HOME$/Library/Caches/Rider2018.2/resharper-host/local/Transient/ReSharperHost/v182/SolutionCaches/_my-new-app.374020742.00" t="ExcludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/consoles/db" t="IncludeRecursive" />
+    <e p="$APPLICATION_CONFIG_DIR$/extensions" t="IncludeRecursive" />
     <e p="$PROJECT_DIR$" t="IncludeRecursive">
       <e p=".gitignore" t="Include" />
       <e p="appsettings.Development.json" t="Include" />
@@ -24,40 +26,74 @@
         <e p="routes.tsx" t="Include" />
       </e>
       <e p="Controllers" t="Include">
+        <e p="AboutController.cs" t="Include" />
         <e p="HomeController.cs" t="Include" />
         <e p="SampleDataController.cs" t="Include" />
       </e>
+      <e p="Models" t="Include">
+        <e p="About.cs" t="Include" />
+      </e>
       <e p="my-new-app.csproj" t="IncludeRecursive" />
       <e p="my-new-app.sln" t="IncludeFlat" />
-      <e p="node_modules/typescript/lib/lib.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.dom.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.dom.iterable.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.collection.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.core.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.generator.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.iterable.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.promise.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.proxy.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.reflect.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.symbol.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2016.array.include.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2016.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2016.full.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2017.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2017.full.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2017.intl.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2017.object.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es2017.string.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es5.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.es6.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.esnext.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.esnext.full.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.scripthost.d.ts" t="IncludeRecursive" />
-      <e p="node_modules/typescript/lib/lib.webworker.d.ts" t="IncludeRecursive" />
+      <e p="node_modules" t="ExcludeRecursive">
+        <e p="@types" t="IncludeRecursive">
+          <e p="history" t="IncludeRecursive" />
+          <e p="react" t="IncludeRecursive" />
+          <e p="react-dom" t="IncludeRecursive" />
+          <e p="react-hot-loader" t="IncludeRecursive" />
+          <e p="react-router" t="IncludeRecursive" />
+          <e p="react-router-dom" t="IncludeRecursive" />
+          <e p="webpack-env" t="IncludeRecursive" />
+        </e>
+        <e p="aspnet-webpack" t="IncludeRecursive" />
+        <e p="aspnet-webpack-react" t="IncludeRecursive" />
+        <e p="awesome-typescript-loader" t="IncludeRecursive" />
+        <e p="bootstrap" t="IncludeRecursive" />
+        <e p="css-loader" t="IncludeRecursive" />
+        <e p="event-source-polyfill" t="IncludeRecursive" />
+        <e p="extract-text-webpack-plugin" t="IncludeRecursive" />
+        <e p="file-loader" t="IncludeRecursive" />
+        <e p="isomorphic-fetch" t="IncludeRecursive" />
+        <e p="jquery" t="IncludeRecursive" />
+        <e p="json-loader" t="IncludeRecursive" />
+        <e p="react" t="IncludeRecursive" />
+        <e p="react-dom" t="IncludeRecursive" />
+        <e p="react-hot-loader" t="IncludeRecursive" />
+        <e p="react-router-dom" t="IncludeRecursive" />
+        <e p="style-loader" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.dom.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.dom.iterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.collection.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.core.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.generator.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.iterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.promise.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.proxy.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.reflect.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.symbol.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2015.symbol.wellknown.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2016.array.include.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2016.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2016.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.intl.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.object.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.sharedmemory.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es2017.string.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es5.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.es6.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.asynciterable.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.esnext.full.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.scripthost.d.ts" t="IncludeRecursive" />
+        <e p="typescript/lib/lib.webworker.d.ts" t="IncludeRecursive" />
+        <e p="url-loader" t="IncludeRecursive" />
+        <e p="webpack" t="IncludeRecursive" />
+        <e p="webpack-hot-middleware" t="IncludeRecursive" />
+      </e>
       <e p="npm-shrinkwrap.json" t="Include" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
@@ -69,6 +105,9 @@
       <e p="package.json" t="Include" />
       <e p="packages" t="ExcludeRecursive" />
       <e p="Program.cs" t="Include" />
+      <e p="Services" t="Include">
+        <e p="AboutRepository.cs" t="Include" />
+      </e>
       <e p="Startup.cs" t="Include" />
       <e p="tsconfig.json" t="Include" />
       <e p="Views" t="Include">
@@ -89,6 +128,7 @@
           <e p="89889688147bd7575d6327160d64e760.svg" t="Include" />
           <e p="main.js" t="Include" />
           <e p="main.js.map" t="Include" />
+          <e p="site.css" t="Include" />
           <e p="vendor-manifest.json" t="Include" />
           <e p="vendor.css" t="Include" />
           <e p="vendor.js" t="Include" />
